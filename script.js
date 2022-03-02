@@ -10,6 +10,6 @@ accordion.querySelector('.accordion__header').addEventListener('click', function
         })
     }
     accordion.classList.add('accordion--open');
-
 })
 });
+
