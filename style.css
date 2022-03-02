@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+/* block - accordion */
+.accordion {
+  border: 1px solid lightgreen;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+/*  modifier - closed */
+.accordion--closed .accordion__content {
+display: none;
+}
+/*  element - header */
+.accordion__header {
+  padding: .5rem 1rem;
+  font-weight: bold;
+  background-color: rgb(219, 252, 143);
+}
+/* element - content */
+.accordion__content {
+  border-top: 1px solid greenyellow;
+  padding: .5rem 1rem;
+}
+
+
+
