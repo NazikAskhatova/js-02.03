@@ -8,10 +8,7 @@
   border-radius: 0.5rem;
   overflow: hidden;
 }
-/*  modifier - closed */
-.accordion--closed .accordion__content {
-display: none;
-}
+
 /*  element - header */
 .accordion__header {
   padding: .5rem 1rem;
@@ -22,6 +19,11 @@ display: none;
 .accordion__content {
   border-top: 1px solid greenyellow;
   padding: .5rem 1rem;
+  display: none;
+}
+/*  modifier - closed */
+.accordion--open .accordion__content {
+display: block;
 }
 
 
